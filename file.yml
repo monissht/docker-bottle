@@ -1,0 +1,7 @@
+---
+- hosts: all
+  tasks:
+   - name: Touch File
+     file: 
+      path: /tmp/hello_world2.txt 
+      state: touch
